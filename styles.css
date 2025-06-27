@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.Menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60vw;
+    height: 3vw;
+    margin-right: 10vw;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.First-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.First-box-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-top: 2vw;
+}
+
+.First-box-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5vw;
+  margin-top: 2vw;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.Hello {
+    font-size: 10vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "poppins", sans-serif;
+    margin-bottom: 0vw;
+    margin-left: -2vw;
+    margin-top: -20vw;
+}
+
+.profile-img {
+  width: 70%;
+  height: 70%;
+  margin-top: 0.5vw;
+}
+
+.Welcome {
+  font-size: 2vw;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "poppins", sans-serif;
+  margin-top: -3vw;
+}
+
+.Description{
+    font-size: 1vw;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "poppins", sans-serif;
+    margin-top: -4vw;
+    margin-left: 3vw;
+}

@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.Menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60vw;
+    height: 3vw;
+    margin-right: 10vw;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.Skill{
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "poppins", sans-serif;
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+}
+
+.Skill-com{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "poppins", sans-serif;
+    margin-top: -1vw;
+    margin-bottom: 1vw;
+    color: orange;
+}
+
+.line1-com-project{
+    font-size: 1.2vw;
+    text-align: flex-start;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "poppins", sans-serif;
+    margin-top: -2vw;
+    margin-left: 10vw;
+}
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+}
+.logo-com {
+    width: 5vw;
+    height: 5vw;
+    margin: 2vw;
+    transition: transform 0.3s ease;
+}
+
+.line-in-skill{
+    font-size: 1.2vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "poppins", sans-serif;
+    margin-top: -1vw;
+    margin-left: 0vw;
+}
